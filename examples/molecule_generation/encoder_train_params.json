@@ -1,0 +1,27 @@
+{
+    "cell": "pLSTM",
+    "input_size": 128,
+    "hidden_size_linear": 256,
+    "hidden_size_encoder": 256,
+    "hidden_size_decoder": 256,
+    "mapper": "rnn",
+    "matcher": "HM",
+    "p": 2,
+    "loss": "CrossEntropy",
+    "epochs": 20,
+    "lr": 0.0001,
+    "scheduler": "step",
+    "lr_args": [
+        10,
+        1.0
+    ],
+    "train_batch": 128,
+    "test_batch": 128,
+    "valid_batch": 128,
+    "test_size": 50000,
+    "train_size": 499082,
+    "valid_size": 50000,
+    "padding_value": 4.0,
+    "masking": "False",
+    "num_plots": 10
+}

@@ -1,0 +1,21 @@
+{
+    "cell": "pLSTM",
+    "input_size": 2,
+    "hidden_size_linear": 66,
+    "hidden_size_encoder": 66,
+    "hidden_size_decoder": 66,
+    "matcher": "HM",
+    "p": 2,
+    "loss": "CrossEntropy",
+    "epochs": 15,
+    "lr": 0.0068,
+    "scheduler": "exp",
+    "lr_args": [
+        0.69
+    ],
+    "train_batch": 128,
+    "test_batch": 128,
+    "valid_batch": 128,
+    "masking": "False",
+    "num_plots": 10
+}

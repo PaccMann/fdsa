@@ -1,0 +1,55 @@
+{
+    "train_size": 500000,
+    "valid_size": 50000,
+    "test_size": 50000,
+    "input_size": 128,
+    "seeds": {
+        "train1": "None",
+        "train2": "None",
+        "train_true": "None",
+        "valid1": "None",
+        "valid2": "None",
+        "valid_true": "None",
+        "test1": "None",
+        "test2": "None",
+        "test_true": "None"
+    },
+    "dataset_type": "permuted",
+    "padding_value": 6.0,
+    "noise_std": 0.5,
+    "distribution_type": "normal",
+    "distribution_args": {
+        "loc": 0.0,
+        "scale": 1.0
+    },
+    "cost_metric": "p-norm",
+    "cost_metric_args": {
+        "p": 2
+    },
+    "cell": "GRU",
+    "layers": 1,
+    "hidden_size": 512,
+    "bidirectional": "False",
+    "return_sequences": "True",
+    "batch_first": "False",
+    "fc_layers": 2,
+    "fc_units": [
+        128,
+        5
+    ],
+    "fc_activation": [
+        "lrelu",
+        "None"
+    ],
+    "train_batch": 128,
+    "valid_batch": 128,
+    "test_batch": 128,
+    "epochs": 20,
+    "lr": 0.001,
+    "max_length": 5,
+    "min_length": 2,
+    "loss": "ce_row",
+    "ce_type": "row",
+    "sinkhorn_iter": 1,
+    "temperature": 1.0
+}

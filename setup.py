@@ -6,7 +6,7 @@ setup(
     version='0.0.1',
     description=('PaccMann sets encoding.'),
     long_description=open('README.md').read(),
-    url='https://github.ibm.com/PaccMann/paccmann_sets',
+    url='https://github.com/PaccMann/paccmann_sets',
     author='PaccMann team',
     author_email=(
         'nja@zurich.ibm.com, tte@zurich.ibm.com, jab@zurich.ibm.com, dow@zurich.ibm.com'

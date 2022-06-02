@@ -2,14 +2,14 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='paccmann_sets',
+    name='fdsa',
     version='0.0.1',
-    description=('PaccMann sets encoding.'),
+    description=('Fully differentiable set autoencoder.'),
     long_description=open('README.md').read(),
-    url='https://github.com/PaccMann/paccmann_sets',
+    url='https://github.com/PaccMann/fdsa',
     author='PaccMann team',
     author_email=(
-        'nja@zurich.ibm.com, tte@zurich.ibm.com, jab@zurich.ibm.com, dow@zurich.ibm.com'
+        'nja@zurich.ibm.com, tte@zurich.ibm.com, jab@zurich.ibm.com'
     ),
     install_requires=[
         'numpy', 'pandas', 'scipy', 'torch', 'requests', 'astropy', 'scikit-image',

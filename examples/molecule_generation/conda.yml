@@ -11,7 +11,7 @@ dependencies:
     - paccmann_predictor @ git+https://github.com/PaccMann/paccmann_predictor@0.0.3
     - paccmann_generator @ git+https://github.com/PaccMann/paccmann_generator@0.0.2
     - paccmann_omics @ git+https://github.com/PaccMann/paccmann_omics@0.0.1
-    - paccmann_sets @ git+https://github.com/PaccMann/paccmann_sets@0.0.1
+    - fdsa @ git+https://github.com/PaccMann/fdsa@0.0.1
     - numpy>=1.14.3
     - pandas>=0.24.1
     - torch>=1.0.1

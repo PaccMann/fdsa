@@ -8,11 +8,11 @@ import matplotlib.pyplot as plt
 import numpy as np
 import seaborn as sns
 import torch
-from paccmann_sets.datasets.torch_dataset import Collate, ToySetsDataset
-from paccmann_sets.models.sets_autoencoder import SetsAE
-from paccmann_sets.utils.hyperparameters import LR_SCHEDULER_FACTORY
-from paccmann_sets.utils.loss_setae import SetAELoss
-from paccmann_sets.utils.mapper import MapperSetsAE
+from fdsa.datasets.torch_dataset import Collate, ToySetsDataset
+from fdsa.models.sets_autoencoder import SetsAE
+from fdsa.utils.hyperparameters import LR_SCHEDULER_FACTORY
+from fdsa.utils.loss_setae import SetAELoss
+from fdsa.utils.mapper import MapperSetsAE
 from torch.utils.data import DataLoader
 
 parser = argparse.ArgumentParser()

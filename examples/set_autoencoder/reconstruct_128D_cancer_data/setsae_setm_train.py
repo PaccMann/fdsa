@@ -8,13 +8,13 @@ import matplotlib.pyplot as plt
 import numpy as np
 import seaborn as sns
 import torch
-from paccmann_sets.datasets.torch_dataset import Collate, SetsDataset
-from paccmann_sets.models.sets_autoencoder import SetsAE
-from paccmann_sets.utils.helper import (cpuStats, get_gpu_memory_map, setup_logger)
-from paccmann_sets.utils.hyperparameters import LR_SCHEDULER_FACTORY
-from paccmann_sets.utils.loss_setae import SetAELoss
-from paccmann_sets.utils.mapper import MapperSetsAE
-from paccmann_sets.utils.setsae_setm import NetworkMapperSetsAE
+from fdsa.datasets.torch_dataset import Collate, SetsDataset
+from fdsa.models.sets_autoencoder import SetsAE
+from fdsa.utils.helper import (cpuStats, get_gpu_memory_map, setup_logger)
+from fdsa.utils.hyperparameters import LR_SCHEDULER_FACTORY
+from fdsa.utils.loss_setae import SetAELoss
+from fdsa.utils.mapper import MapperSetsAE
+from fdsa.utils.setsae_setm import NetworkMapperSetsAE
 from torch.utils.data import DataLoader
 
 parser = argparse.ArgumentParser()

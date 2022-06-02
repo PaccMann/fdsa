@@ -9,11 +9,11 @@ import matplotlib.pyplot as plt
 import numpy as np
 import seaborn as sns
 import torch
-from paccmann_sets.models.set_matching.rnn import RNNSetMatching
-from paccmann_sets.utils.hyperparameters import (
+from fdsa.models.set_matching.rnn import RNNSetMatching
+from fdsa.utils.hyperparameters import (
     DISTRIBUTION_FUNCTION_FACTORY, LR_SCHEDULER_FACTORY
 )
-from paccmann_sets.utils.loss_setmatching import SetMatchLoss
+from fdsa.utils.loss_setmatching import SetMatchLoss
 from pytoda.datasets.distributional_dataset import DistributionalDataset
 from pytoda.datasets.set_matching_dataset import (
     PairedSetMatchingDataset, PermutedSetMatchingDataset

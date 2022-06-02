@@ -18,7 +18,7 @@ from paccmann_generator.plot_utils import (
 from paccmann_generator.reinforce_sets import ReinforceMultiModalSets
 from paccmann_generator.utils import disable_rdkit_logging
 from paccmann_predictor.models import MODEL_FACTORY
-from paccmann_sets.models.sets_autoencoder import SetsAE
+from fdsa.models.sets_autoencoder import SetsAE
 from pytoda.proteins.protein_language import ProteinLanguage
 from pytoda.smiles.smiles_language import SMILESLanguage, SMILESTokenizer
 

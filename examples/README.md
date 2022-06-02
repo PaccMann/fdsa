@@ -1,6 +1,6 @@
-# paccmann_sets - Examples
+# fdsa - Examples
 
-Here we report some `paccmann_sets` usage examples.
+Here we report some `fdsa` usage examples.
 Example data can be downloaded [here](https://ibm.box.com/v/paccmann-?).
 
 
@@ -22,7 +22,7 @@ comparative analysis of RNNs using 4 recurrent cells, namely, GRU, LSTM, nBRC an
 in the set matching task. The parameters for training are provided as JSON files.
 
 ```console
-(paccmann_sets) $ python examples/set_matching/rnn/rnn_setmatching.py -h
+(fdsa) $ python examples/set_matching/rnn/rnn_setmatching.py -h
 usage: rnn_setmatching.py [-h] model_path results_path training_params
 
 positional arguments:
@@ -43,7 +43,7 @@ recurrent cells, namely, GRU, LSTM, nBRC and BRC as the encoding/decoding unit i
 set matching task. The parameters for training are provided as JSON files.
 
 ```console
-(paccmann_sets) $ python examples/set_matching/seq2seq/seq2seq_setmatching.py -h
+(fdsa) $ python examples/set_matching/seq2seq/seq2seq_setmatching.py -h
 usage: seq2seq_setmatching.py [-h] model_path results_path training_params
 
 positional arguments:
@@ -74,14 +74,14 @@ reconstructing shapes and reconstructing 128D cancer data.
 This tasks serves as a sanity check for the set autoencoder and so only uses the Hungarian algorithm.
 The data for the shapes task consists of randomly generated 2D point clouds of squares, crosses, and circles,
 of various sizes and positions, and made up of a varying number of points. The data can be generated 
-using the [shapes_data.py](../paccmann_sets/datasets/shapes_data.py) script. 
+using the [shapes_data.py](../fdsa/datasets/shapes_data.py) script. 
 The data are saved as a `.csv` file, which is then passed into the [shapes_train.py](./set_autoencoder/shapes/shapes_train.py) 
 script. This script performs a comparative analysis of using GRU, LSTM, pLSTM and nBRC recurrent cells
 as the encoding/decoding unit in the set autoencoder on reconstructing 2D shapes. The
 training parameters are provided as a JSON file.
 
 ```console
-(paccmann_sets) $ python examples/set_autoencoder/shapes/shapes_train.py -h
+(fdsa) $ python examples/set_autoencoder/shapes/shapes_train.py -h
 usage: shapes_train.py [-h]
                        model_path results_path training_data_path
                        validation_data_path testing_data_path training_params
@@ -116,7 +116,7 @@ network and algorithms.
 The pre-trained matching network can be found [here](https://ibm.box.com/v/paccmann-sets-matching-network).
 
 ```console
-(paccmann_sets) $ python examples/set_autoencoder/reconstruct_128D/setsae_setm_train.py
+(fdsa) $ python examples/set_autoencoder/reconstruct_128D/setsae_setm_train.py
 usage: setsae_setm_train.py [-h]
                             model_path results_path training_params
                             matching_params train_data_path valid_data_path
@@ -151,7 +151,7 @@ The [molecule_generation](./molecule_generation) folder contains the necessary J
 under pretraining/toxicity_predictor.
 
 ```console
-(paccmann_sets) $ python examples/molecule_generation/mol_gen.py -h
+(fdsa) $ python examples/molecule_generation/mol_gen.py -h
 usage: mol_gen.py [-h] [--test_protein_name TEST_PROTEIN_NAME]
                   [--tox21_path TOX21_PATH]
                   omics_data_path protein_data_path test_cell_line

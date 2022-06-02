@@ -40,6 +40,5 @@ For some examples on how to use `fdsa` see [here](./examples)
 ## Citation
 
 If you use `fdsa` in your projects, please cite as:
-```bib
-Nikita Janakarajan, Jannis Born, and Matteo Manica. 2022. A Fully Differ-entiable Set Autoencoder. InProceedings of the 28th ACM SIGKDD Confer-ence on Knowledge Discovery and Data Mining (KDD ’22), August 14–18,2022, Washington, DC, USA.ACM, New York, NY, USA, 12 pages. https://doi.org/10.1145/3534678.3539153
-```
+
+Nikita Janakarajan, Jannis Born, and Matteo Manica. 2022. A Fully Differ-entiable Set Autoencoder. InProceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD ’22), August 14–18,2022, Washington, DC, USA.ACM, New York, NY, USA, 12 pages. https://doi.org/10.1145/3534678.3539153

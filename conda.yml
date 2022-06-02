@@ -1,4 +1,4 @@
-name: paccmann_sets
+name: fdsa
 channels:
   - conda-forge
 dependencies:

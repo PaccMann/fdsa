@@ -19,6 +19,7 @@ class SetAELoss(nn.Module):
                 device (torch.device): Device on which the model should run.
                     Defaults to CPU.
             """
+        super(SetAELoss,self).__init__()
         self.loss = loss
         self.device = device
         self.loss_dict = {'CrossEntropy': self.ce_loss, 'BCELogits': self.bce_loss}

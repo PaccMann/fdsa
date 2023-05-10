@@ -1,7 +1,7 @@
 # fdsa - Examples
 
 Here we report some `fdsa` usage examples.
-Example data can be downloaded [here](https://ibm.box.com/v/paccmann-?).
+Example data can be downloaded [here](https://ibm.box.com/v/paccmann-sets-data).
 
 
 ## Training a Set Matching Network
